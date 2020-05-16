@@ -1,0 +1,42 @@
+.Navbar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0 !important;
+    margin: 0 !important;
+    padding: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background: var(--BG-COLOR-HEADER);
+    color: var(--FG-COLOR-HEADER);
+    box-shadow: var(--SHADOW-HEADER);
+}
+.Navbar a {
+    color: var(--FG-COLOR-HEADER) !important;
+}
+.Navlinks {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+.Navlinks a {
+    font-weight: bold;
+}
+.Navlinks ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Navlinks li {
+    display: inline-block;
+    margin: 0;
+    margin-left: 16px;
+    padding: 0;
+}

@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    background: var(--BG-COLOR-SECONDARY);
+    color: var(--FG-COLOR);
+    border: var(--BORDER-FORM);
+    border-radius: var(--BORDER-RADIUS);
+    box-shadow: var(--SHADOW-COMPONENT);
+}
+
+form input[type=text], form input[type=email], form input[type=password] {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: var(--FONT-SIZE);
+    font-family: var(--FONT-FAMILY);
+    border: var(--BORDER-INPUT-TEXT);
+    border-collapse: collapse;
+    border-radius: var(--BORDER-RADIUS);
+}
+form input:active, form input:focus {
+    outline: none;
+    border: var(--BORDER-INPUT-TEXT-FOCUS);
+    box-shadow: 0px 0px 4px var(--HIGHLIGHT-COLOR) inset;
+}
+
+form input[type=submit] {
+    margin: 0;
+    padding: 8px;
+    font-size: var(--FONT-SIZE);
+    font-family: var(--FONT-FAMILY);
+    font-weight: bold;
+    background: var(--BG-COLOR-BUTTON);
+    color: var(--FG-COLOR-BUTTON);
+    border: var(--BORDER-BUTTON);
+    border-radius: var(--BORDER-RADIUS);
+}
+form input[type=submit]:active, form input[type=submit]:focus {
+    box-shadow: 0px 2px 4px var(--BG-COLOR-BUTTON-ACTIVE) inset;
+}

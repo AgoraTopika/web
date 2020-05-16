@@ -1,0 +1,72 @@
+@import url(https://fontlibrary.org/face/standard);
+
+:root {
+    --FONT-FAMILY: Standard, Helvetica, Arial, sans-serif;
+    --FONT-SIZE: 16px;
+    --BG-COLOR: white;
+    --BG-COLOR-SECONDARY: whitesmoke;
+    --BG-COLOR-HEADER: var(--BG-COLOR-SECONDARY);
+    --BG-COLOR-BUTTON: linear-gradient(to bottom, var(--HIGHLIGHT-COLOR), var(--LINK-COLOR));
+    --BG-COLOR-BUTTON-ACTIVE: teal;
+    --FG-COLOR: black;
+    --FG-COLOR-HEADER: var(--FG-COLOR);
+    --FG-COLOR-BUTTON: var(--BG-COLOR);
+    --LINK-COLOR: darkcyan;
+    --HIGHLIGHT-COLOR: lightseagreen;
+    --BORDER-FORM: 1px solid lightgray;
+    --BORDER-INPUT-TEXT: 1px solid lightgray;
+    --BORDER-INPUT-TEXT-FOCUS: 1px solid var(--BG-COLOR-BUTTON-ACTIVE);
+    --BORDER-BUTTON: 1px solid var(--BG-COLOR-BUTTON-ACTIVE);
+    --BORDER-RADIUS: 8px;
+    --SHADOW-COMPONENT: 0px 2px 8px rgba(0,0,0,0.125);
+    --SHADOW-HEADER: 0px 2px 16px rgba(0,0,0,0.25);
+    --WIDTH-MAX-LOGIN-CONTAINER: 320px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25;
+    font-size: var(--FONT-SIZE);
+    font-family: var(--FONT-FAMILY);
+    background: var(--BG-COLOR);
+    color: var(--FG-COLOR);
+}
+
+#App {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--LINK-COLOR);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 32px;
+    box-sizing: border-box;
+}

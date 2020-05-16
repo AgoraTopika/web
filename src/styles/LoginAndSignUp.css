@@ -1,0 +1,21 @@
+.LoginAndSignUp {
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    max-width: var(--WIDTH-MAX-LOGIN-CONTAINER);
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.LoginAndSignUp form {
+    width: 100%;
+}
+
+.LoginAndSignUp h2 {
+    margin: auto !important;
+    text-align: center;
+}
